@@ -1,8 +1,5 @@
-#first workflows
-# trigger 1 push
 name: My first workflow
 on: push
-#on: workflow_dispatch
 
 jobs:
  my-first-job:
