@@ -1,1 +1,20 @@
 #first workflows
+# trigger 1 push
+name: My first workflow
+on: push
+#on: workflow_dispatch
+
+jobs:
+ my-first-job:
+   runs-on: ubuntu-latest
+   steps:
+     -run: echo "Hello World" 
+
+ my-second-job:
+   runs-on: ubuntu-latest
+   steps:
+     -run: echo "Bye World" 
+
+ 
+
+
